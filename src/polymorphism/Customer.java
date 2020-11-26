@@ -6,8 +6,8 @@ public class Customer {
 	protected String customerName;
 	protected String customerGrade;
 	
-	int bonusPoint;
-	double bonusRatio;
+	public int bonusPoint;
+	public double bonusRatio;
 /*	
 	public Customer() {
 		customerGrade = "SILVER";
