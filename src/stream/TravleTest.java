@@ -21,6 +21,5 @@ public class TravleTest {
 		
 		System.out.println("== 20세 이상 고객 명단 정렬하여 출력 == ");
 		customerList.stream().filter(c -> c.getAge() >= 20).map(c -> c.getName()).sorted().forEach(c -> System.out.println(c));
-		
 	}
 }
